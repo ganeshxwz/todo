@@ -28,7 +28,7 @@ body{
    width: 314px;
 }
 
-.add-btn{
+.add-btn,.reset-btn{
     height: 50px;
     width: 50px;
     font-size: x-large;
@@ -40,7 +40,7 @@ body{
 
 #section{
      position:fixed ;
-     bottom: 35px;
+     bottom: 40px;
      right: 0;
      left: 0;
      

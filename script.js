@@ -1,5 +1,6 @@
 const inp = document.getElementById('inp')
 const plus = document.querySelector('.add-btn')
+const reset = document.querySelector('.reset-btn')
 const list = document.getElementById('list')
 
 plus.addEventListener('click', function(){
@@ -8,4 +9,8 @@ plus.addEventListener('click', function(){
     list.innerHTML += `<li> ${val} </li>`
     inp.value = ''
 
+})
+
+reset.addEventListener('click',function(){
+    list.innerHTML = ""
 })
